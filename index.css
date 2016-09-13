@@ -1,11 +1,11 @@
 h1 {
 	font-family: 'Bungee Shade', cursive;
-	color: #B2A2BF;
 	font-size: 70px;
 	text-align: center;
 	background-color: black;
 	border-style: groove;
-	border-color: #B2A2BF;
+	color:#f8f8e9;
+    border-color: #f8f8e9;
 }
 h1:hover
 {
@@ -30,9 +30,6 @@ body {
 	color: 	#B2A2BF;
 	background-color: black;
 }
-.world {
-	align: center;
-}
 .img:hover
 {
    box-shadow:
@@ -45,8 +42,8 @@ body {
 }
 h1:hover
 {
-    color:#f8f8e9;
-    border-color: #f8f8e9;
+	color: #B2A2BF;
+	border-color: #B2A2BF;
 }
 p {
     text-align: center;
