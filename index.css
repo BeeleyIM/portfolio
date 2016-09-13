@@ -1,0 +1,147 @@
+h1 {
+	font-family: 'Bungee Shade', cursive;
+	color: #B2A2BF;
+	font-size: 70px;
+	text-align: center;
+	background-color: black;
+	border-style: groove;
+	border-color: #B2A2BF;
+}
+h1:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+h2 {
+	font-family: 'Shrikhand', cursive;
+	color: black;
+	font-size: 40px;
+	background-color: #f8f8e9;
+	width: 1000px;
+}
+body {
+    background-image: url("portfolioimg/winter.jpg");
+}
+.country {
+	font-family: 'Cutive', serif;
+	font-size: 35px;
+	color: 	#B2A2BF;
+	background-color: black;
+}
+.world {
+	align: center;
+}
+.img:hover
+{
+   box-shadow:
+   	 3px 3px #53a7ea,
+     4px 4px #53a7ea,
+     5px 5px #53a7ea;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+
+}
+h1:hover
+{
+    color:#f8f8e9;
+    border-color: #f8f8e9;
+}
+p {
+    text-align: center;
+}
+.img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+@media only screen and (max-width:1000px)  {
+	body {
+    background-image: url("portfolioimg/summer.jpg");
+	}
+	.world {
+		width: 800px;
+	}
+}
+@media only screen and (max-width:700px)  {
+	body {
+    background-image: url("portfolioimg/fall.jpg");
+	}
+	.world {
+		width: 500px;
+	}
+}
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+.world:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
